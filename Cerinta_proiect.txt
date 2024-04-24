@@ -11,3 +11,5 @@ Caracteristici:
 - Fiecare alertă afișată pe LCD va fi însoțită și de un semnal sonor caracteristic, cu ajutorul unui buzzer; în cazul prezenței celor două alerte simultan, se vor succeda în buclă cele doua semnale sonore diferite, cu repetitivitate de 2 – 3 secunde;
 
 - Dacă sistemul este dezarmat, se va afișa un mesaj corespunzător pe LCD, iar buzzer-ul va fi oprit chiar dacă senzorii PIR detectează ceva.
+
+
