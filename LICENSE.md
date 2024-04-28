@@ -1,6 +1,6 @@
 Proprietary License
 
-Copyright (c) 2023-2024 Turcuș Adrian
+Copyright (c) 2023-2024 Turcuș Adrian, Ostrovan Narcisa
 
 All rights reserved. This project is the property of Turcuș Adrian. You may not use, modify, or distribute this software or any part of it without explicit permission from the copyright holder.
 
