@@ -3,6 +3,7 @@
 // 2) Replace it with receiver code & upload to Groundstudio Jade Uno+ (COM 8)
 // 3) Wire TX of Arduino to RX of Jade, RX of Arduino to TX of Jade and GND to GND
 // 4) Check Serial monitor
+// Reference video: https://www.youtube.com/watch?v=9HivniieLvI
 
 
 /* TRANSMITTER:
