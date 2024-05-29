@@ -62,6 +62,7 @@ void loop() {
   //delay(500);
   //servoMotor.write(0);
  if(systemArmed == false){
+   servoMotor.write(0);
    lcd_1.setCursor(0, 0);
    lcd_1.print("System not armed");
  }
@@ -97,7 +98,11 @@ void zone_libere(){
 void alarm_trigger(int pirStates[]){
   	
   if(pirStates[0]==1 && pirStates[1]==1){
-  	alert("Alerta ambele camere");
+    lcd_1.clear();
+    lcd_1.setCursor(0, 0);
+    lcd_1.print("Alerta    ambele");
+    lcd_1.setCursor(5, 1);
+    lcd_1.print("camere");
     tone(buzzer1Pin,2000,1000);
     delay(1000);
     tone(buzzer2Pin,1000,750);
