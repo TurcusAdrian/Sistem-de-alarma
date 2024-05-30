@@ -13,7 +13,7 @@ const int servoPin = 6;
 int pir1State = 0;
 int pir2State = 0;
 
-bool systemArmed = true;
+bool systemArmed = false;
 
 char password[6];
 
